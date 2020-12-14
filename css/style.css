@@ -1,0 +1,101 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    margin: 150px 70px 70px;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+}
+
+a:not(#cv) {
+    text-decoration: none;
+    transition: ease-in 0.2s;
+    border-radius: 1px;
+    padding: 4px;
+}
+
+a:hover:not(#cv) {
+    background-color: #ebebeb;
+    margin: 10px;
+}
+
+.padder {
+    height: 10px;
+}
+
+.work-experience table {
+    width: 80%;
+    min-width: 500px;
+    margin-left: 150px;
+    margin-bottom: 130px;
+}
+
+.work-experience table * {
+    vertical-align: top;
+}
+
+.work-experience table .title {
+    text-align: right;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.work-experience table .project-title {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.work-experience table .content {
+    text-align: left;
+    padding-left: 30px;
+}
+
+#digital-puppetry .colored {
+    color: blue;
+}
+
+#protograph-ldpc .colored {
+    color: forestgreen;
+}
+
+#scf20 .colored {
+    color: purple;
+}
+
+#scf19 .colored {
+    color: darkcyan;
+}
+
+#cv {
+    color: crimson;
+    text-align: center;
+    background-color: antiquewhite;
+    width: 200px;
+    margin-left: calc(50% - 150px);
+    padding: 20px 50px;
+    text-decoration: none;
+    transition: ease-in 0.2s;
+}
+
+#cv:hover {
+    background-color: #ffb8b8;
+}
