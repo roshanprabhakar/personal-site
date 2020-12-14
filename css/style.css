@@ -12,14 +12,14 @@ body {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     color: red;
-    margin: 150px 70px 70px;
+    /*margin: 150px 70px 70px;*/
     font-size: 50px;
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
 }
 
 ul {
@@ -36,6 +36,35 @@ a:not(#cv) {
 a:hover:not(#cv) {
     background-color: #ebebeb;
     margin: 10px;
+}
+
+#header {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    width: 800px;
+    height: 200px;
+    margin-top: calc(25% - 100px);
+    margin-left: calc(50% - 400px);
+    margin-bottom: calc(25% - 100px);
+    padding: 0;
+}
+
+#header img {
+    /*transform: scale(0.5);*/
+    width: 210px;
+    height: 200px;
+    float: left;
+    border-radius: 50%;
+}
+
+#header h1 {
+    margin-bottom: 0;
+    margin-left: 230px;
+}
+
+#header h2 {
+    margin-top: 10px;
+    margin-left: 230px;
 }
 
 .padder {
