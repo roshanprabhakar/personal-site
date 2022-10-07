@@ -35,7 +35,7 @@ a:not(#cv) {
 
 a:hover:not(#cv) {
     background-color: #ebebeb;
-    margin: 10px;
+    margin: 1px;
 }
 
 #header {
@@ -112,6 +112,14 @@ a:hover:not(#cv) {
 
 #scf19 .colored {
     color: darkcyan;
+}
+
+#scf21 .colored {
+	color: darkorange;
+}
+
+#txt2vid-browser .colored {
+	color: darkmagenta;
 }
 
 #cv {
