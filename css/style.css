@@ -76,6 +76,7 @@ a:hover:not(#cv) {
     min-width: 500px;
     margin-left: 150px;
     margin-bottom: 130px;
+		padding-top: 200px;
 }
 
 .work-experience table * {
